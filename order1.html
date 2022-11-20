@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- Created by Jack Coyle -->
+<html lang="en">
+<head>
+<script src="myscript.js"></script>
+<link rel="stylesheet" type="text/css" href="style1.css" media="screen">
+<meta charset="UTF-8">
+	<title>Cyberpunk Attire</title>
+	<link href="style.css" rel="stylesheet">
+<meta name="author" content="Jack Coyle">
+<meta name="description" content="ultra cyber, ultra gear, head gear, shop, futuristic glasses, ultra skirts, punk skirts, cyberpunk clothing, due date, school assignment, sizes, shopping, clothes, gear">
+	
+
+<h1 style="color:pink;">|U|L|T|R|A|G|E|A|R|</h1>
+	<div class="side">
+	<div class="bgsize">
+	<div class="box">
+
+	<img src="head.jpg" alt="headmask">
+	<div class="content">
+	<h2>Head Gear</h2>
+	<h4>Price: $50</h4>
+	<p class="unit">Qty: <input name="." value="2"></p>
+</div>
+</div>
+
+<div class="box">
+	<img src="glasses.jpg" alt="futuristic glasses">
+	<div class="content">
+	<h3>Futuristic Glasses</h3>
+	<h4>Price: $30</h4>
+	<p class="unit">Qty: <input name="." value="1"></p>
+
+<label for="color">Choose a color:</label>
+<select size="1" id="size">
+  <option value="clear">Clear</option>
+  <option value="blue">Blue</option>
+</select>
+</div>
+</div>
+
+<div class="box">
+	<img src="skirts.jpg" alt="punk skirts">
+	<div class="content">
+	<h3>Ultra Skirts</h3>
+	<h4>Price: $25</h4>
+
+<p class="unit">Qty: <input name="." value="0"></p>
+<label for="size">Choose a size:</label>
+	<select size="1" id="size1">
+  	<option value="small">Small</option>
+  	<option value="medium">Medium</option>
+  	<option value="large">Large</option>
+</select>
+
+</div>
+</div>
+</div>
+
+
+<div class="right-bar">
+	<p><span>Cart</span> <span>$130</span></p>
+<hr>
+	<p><span>Shipping</span> <span>$15</span></p>
+<hr>
+	<p><span>Total</span> <span>$145</span> </p>
+	
+        <button type="button" onclick="Display()">Submit</button>
+        <script src="myscript.js"></script>
+	
+</div>
+</div>
+
+
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comments:<br>
+<input type="text" name="comment" size="40"><br><br>
+<button type="button" onclick="Display2()">Send</button>
+<label for="color">Send us your favorite color!:</label>
+<input type="color" id="color" name="color" value="#ff0000">
+  <p>Contact Email: Jcoyle@student.clayton.edu</p>
+  <p>Due Date: 11/20/2022</p>
+
+<div style="text-align:center">
+<div style="background-color: yellow">
+<div id="buttonnew"><a href="index.html">HOME</a></div></div></div>
+
+
+<div id = "lastmodified"></div> 
+<script>
+     	var date = document.lastModified;
+      		document.getElementById("lastmodified").innerHTML = "This document was last modified on : " + date;
+</script>
+</body>
+</html>
